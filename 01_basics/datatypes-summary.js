@@ -47,3 +47,31 @@ console.log(typeof myObj)      //->return type = object
 console.log(typeof myFunction) //->return type = function(object)
 
 // very imp this types asked in interviws
+
+
+
+
+// ****************************************************************
+
+
+// stack (primitive), Heap(Non-primitive)
+
+let myYoutubename = "shwetabhore"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "shweta@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
